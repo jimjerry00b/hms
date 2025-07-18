@@ -45,7 +45,7 @@
                     <h5 class="card-title text-center pb-0 fs-4">Login</h5>
                   </div>
 
-                  <form class="row g-3 needs-validation" action="{{ route('custom.login.post') }}" method="post">
+                  <form class="row g-3 needs-validation" action="{{ route('login.post') }}" method="post">
                     @csrf
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Username</label>
